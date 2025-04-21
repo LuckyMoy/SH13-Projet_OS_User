@@ -13,7 +13,7 @@ Chaque joueur reçoit 3 cartes (les suspects qu'il peut éliminer) et dispose d'
 
 ---
 
-## 🏙þ Structure du projet
+## 🏙 Structure du projet
 ```
 SH13/
 ├── README.md             
@@ -109,7 +109,8 @@ Chaque script correspond à un joueur avec un port et un nom différents. Vous p
 - `D` : cartes reçues par le joueur
 - `V` : information révélée sur les cartes des autres
 - `M` : changement de joueur courant
-- `G`, `O`, `S` : requêtes d’actions (guess, object, suspect)
+- `A` : Résultat d'une accusation
+- `G`, `O`, `S`, `P` : requêtes d’actions (guess, object, suspect, pass)
 
 ---
 
